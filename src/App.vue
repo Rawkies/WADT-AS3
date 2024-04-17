@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
+
 <template>
   <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -12,6 +13,10 @@ import HelloWorld from './components/HelloWorld.vue'
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
 </template>
 
 <style scoped>
