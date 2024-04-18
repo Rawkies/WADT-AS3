@@ -2,19 +2,26 @@
 import profileImage from './assets/profile.jpeg';
 </script>
 
-
 <template>
-  <main class="py-6 px-4 sm:p-6 md:py-10 md:px-8">
-    <h1 class="mt-1 text-lg font-semibold text-white sm:text-slate-900 md:text-2xl dark:sm:text-white">PROFILE PAGE </h1>
-        <img :src="profileImage" alt="" class="w-full h-full object-cover rounded-lg sm:h-100 sm:col-span-2 lg:col-span-full" loading="lazy">
-    <div>
-    <p class="text-sm leading-4 font-medium text-white sm:text-slate-500 dark:sm:text-slate-400">RAHIMI AFIQ HASYIR</p>
-      <p class="mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400">
-        My Name Awang Mohd Nur Rahimi AFiq Hasyir Bin Awang Haji ismail, im 23 year old. love to play mobile games, handball and also love to watch movies. I am also a student at Politeknik Brunei, currently studying in Diploma in WEB DEVELOPER. I am a person who is very interested in the world of technology and I am very interested in learning new things. 
-      </p>
-    </div> 
+  <main class="py-6 px-4 sm:p-6 md:py-10 md:px-8 bg-blue-100 dark:bg-blue-900">
+    <h1 class="mt-1 text-2xl font-semibold text-gray-900 dark:text-white">POLITEKNIK BRUNEI</h1>
+    <div class="mt-6 flex flex-col sm:flex-row">
+      <div class="w-full sm:w-1/2">
+        <img :src="profileImage" alt="Profile Image" class="w-full h-auto rounded-lg shadow-md lg:col-1"/>
+      </div>
+      <div class="w-full sm:w-1/2 mt-4 sm:mt-0 p-6">
+        <h2 class="text-lg font-semibold text-gray-900 dark:text-white">RAHIMI AFIQ HASYIR</h2>
+        <div class="mt-4 bg-red-100 dark:bg-red-800 p-6 rounded-lg shadow-md">
+          <div class="text-base leading-6 text-gray-700 dark:text-gray-300 flex flex-col lg:flex-row">
+            <p class="flex-grow lg:col-2 text-center" >
+              My name is Awang Mohd Nur Rahimi Afiq Hasyir Bin Awang Haji Ismail. I'm 23 years old and currently a student at Politeknik Brunei, pursuing a Diploma in Web Development. I have a passion for technology, enjoy playing mobile games, handball, and watching movies. I'm always eager to learn new things.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
-</template> 
+</template>
 
 <style scoped>
 </style>
